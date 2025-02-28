@@ -280,7 +280,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         $this->container['marketing_status'] = $data['marketing_status'] ?? null;
         $this->container['add_time'] = $data['add_time'] ?? null;
         $this->container['634947d7de3867638150f6a9422513178fa61bb9'] = $data['634947d7de3867638150f6a9422513178fa61bb9'] ?? null;
-        $this->container['634947d7de3867638150f6a9422513178fa61bb9'] = $data['634947d7de3867638150f6a9422513178fa61bb9'] ?? null;
+        $this->container['689ddf58485a6d2a4958eb41746575a6ace27c37'] = $data['689ddf58485a6d2a4958eb41746575a6ace27c37'] ?? null;
         $this->container['802440d972981216c52eea576fee899b561187ac'] = $data['802440d972981216c52eea576fee899b561187ac'] ?? null;
         $this->container['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] = $data['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] ?? null;
         $this->container['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] = $data['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] ?? null;
@@ -674,7 +674,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
 
         return $this;
     }
-    
+
     /**
      * Returns true if offset exists. False otherwise.
      *
