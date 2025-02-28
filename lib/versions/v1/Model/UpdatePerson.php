@@ -75,7 +75,12 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         'label_ids' => 'int[]',
         'visible_to' => '\Pipedrive\versions\v1\Model\VisibleTo',
         'marketing_status' => '\Pipedrive\versions\v1\Model\MarketingStatus',
-        'add_time' => 'string'
+        'add_time' => 'string',
+        '634947d7de3867638150f6a9422513178fa61bb9' => 'string',
+        '689ddf58485a6d2a4958eb41746575a6ace27c37' => 'string',
+        '802440d972981216c52eea576fee899b561187ac' => 'string',
+        '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'string',
+        'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'string',
     ];
 
     /**
@@ -95,7 +100,12 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         'label_ids' => null,
         'visible_to' => null,
         'marketing_status' => null,
-        'add_time' => null
+        'add_time' => null,
+        '634947d7de3867638150f6a9422513178fa61bb9' => null,
+        '689ddf58485a6d2a4958eb41746575a6ace27c37' => null,
+        '802440d972981216c52eea576fee899b561187ac' => null,
+        '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => null,
+        'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => null,
     ];
 
     /**
@@ -138,7 +148,12 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         'label_ids' => 'label_ids',
         'visible_to' => 'visible_to',
         'marketing_status' => 'marketing_status',
-        'add_time' => 'add_time'
+        'add_time' => 'add_time',
+        '634947d7de3867638150f6a9422513178fa61bb9' => '634947d7de3867638150f6a9422513178fa61bb9',
+        '689ddf58485a6d2a4958eb41746575a6ace27c37' => '689ddf58485a6d2a4958eb41746575a6ace27c37',
+        '802440d972981216c52eea576fee899b561187ac' => '802440d972981216c52eea576fee899b561187ac',
+        '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
+        'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
     ];
 
     /**
@@ -156,7 +171,12 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         'label_ids' => 'setLabelIds',
         'visible_to' => 'setVisibleTo',
         'marketing_status' => 'setMarketingStatus',
-        'add_time' => 'setAddTime'
+        'add_time' => 'setAddTime',
+        '634947d7de3867638150f6a9422513178fa61bb9' => 'set_634947d7de3867638150f6a9422513178fa61bb9',
+        '689ddf58485a6d2a4958eb41746575a6ace27c37' => 'set_689ddf58485a6d2a4958eb41746575a6ace27c37',
+        '802440d972981216c52eea576fee899b561187ac' => 'set_802440d972981216c52eea576fee899b561187ac',
+        '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'set_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
+        'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'set_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
     ];
 
     /**
@@ -174,7 +194,12 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         'label_ids' => 'getLabelIds',
         'visible_to' => 'getVisibleTo',
         'marketing_status' => 'getMarketingStatus',
-        'add_time' => 'getAddTime'
+        'add_time' => 'getAddTime',
+        '634947d7de3867638150f6a9422513178fa61bb9' => 'get_634947d7de3867638150f6a9422513178fa61bb9',
+        '689ddf58485a6d2a4958eb41746575a6ace27c37' => 'get_689ddf58485a6d2a4958eb41746575a6ace27c37',
+        '802440d972981216c52eea576fee899b561187ac' => 'get_802440d972981216c52eea576fee899b561187ac',
+        '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'get_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
+        'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'get_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
     ];
 
     /**
@@ -254,6 +279,11 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         $this->container['visible_to'] = $data['visible_to'] ?? null;
         $this->container['marketing_status'] = $data['marketing_status'] ?? null;
         $this->container['add_time'] = $data['add_time'] ?? null;
+        $this->container['634947d7de3867638150f6a9422513178fa61bb9'] = $data['634947d7de3867638150f6a9422513178fa61bb9'] ?? null;
+        $this->container['634947d7de3867638150f6a9422513178fa61bb9'] = $data['634947d7de3867638150f6a9422513178fa61bb9'] ?? null;
+        $this->container['802440d972981216c52eea576fee899b561187ac'] = $data['802440d972981216c52eea576fee899b561187ac'] ?? null;
+        $this->container['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] = $data['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] ?? null;
+        $this->container['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] = $data['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] ?? null;
     }
 
     /**
@@ -521,6 +551,127 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
 
         return $this;
     }
+
+    /**
+     * Gets DIPARTIMENTO
+     *
+     * @return string|null
+     */
+    public function get_634947d7de3867638150f6a9422513178fa61bb9()
+    {
+        return $this->container['634947d7de3867638150f6a9422513178fa61bb9'];
+    }
+
+    /**
+     * Sets DIPARTIMENTO
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_634947d7de3867638150f6a9422513178fa61bb9($value): self
+    {
+        $this->container['634947d7de3867638150f6a9422513178fa61bb9'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * Gets PAESE
+     *
+     * @return string|null
+     */
+    public function get_689ddf58485a6d2a4958eb41746575a6ace27c37()
+    {
+        return $this->container['689ddf58485a6d2a4958eb41746575a6ace27c37'];
+    }
+
+    /**
+     * Sets PAESE
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_689ddf58485a6d2a4958eb41746575a6ace27c37($value): self
+    {
+        $this->container['689ddf58485a6d2a4958eb41746575a6ace27c37'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * Gets LINGUA
+     *
+     * @return string|null
+     */
+    public function get_802440d972981216c52eea576fee899b561187ac()
+    {
+        return $this->container['802440d972981216c52eea576fee899b561187ac'];
+    }
+
+    /**
+     * Sets LINGUA
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_802440d972981216c52eea576fee899b561187ac($value): self
+    {
+        $this->container['802440d972981216c52eea576fee899b561187ac'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * Gets PUNTI DI CONTATTO
+     *
+     * @return string|null
+     */
+    public function get_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc()
+    {
+        return $this->container['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'];
+    }
+
+    /**
+     * Sets PUNTI DI CONTATTO
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc($value): self
+    {
+        $this->container['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * Gets BCR NOTE
+     *
+     * @return string|null
+     */
+    public function get_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0()
+    {
+        return $this->container['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'];
+    }
+
+    /**
+     * Sets BCR NOTE
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0($value): self
+    {
+        $this->container['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] = $value;
+
+        return $this;
+    }
+
     /**
      * Returns true if offset exists. False otherwise.
      *
