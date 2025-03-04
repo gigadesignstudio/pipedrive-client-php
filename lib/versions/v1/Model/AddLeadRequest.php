@@ -77,7 +77,8 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         'was_seen' => 'bool',
         'origin_id' => 'string',
         'channel' => 'int',
-        'channel_id' => 'string'
+        'channel_id' => 'string',
+        'e512cd02c6f2d078292c006d07d6f64ebaf98168' => 'string',
     ];
 
     /**
@@ -99,7 +100,8 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         'was_seen' => null,
         'origin_id' => null,
         'channel' => null,
-        'channel_id' => null
+        'channel_id' => null,
+        'e512cd02c6f2d078292c006d07d6f64ebaf98168' => null,
     ];
 
     /**
@@ -144,7 +146,8 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         'was_seen' => 'was_seen',
         'origin_id' => 'origin_id',
         'channel' => 'channel',
-        'channel_id' => 'channel_id'
+        'channel_id' => 'channel_id',
+        'e512cd02c6f2d078292c006d07d6f64ebaf98168' => 'e512cd02c6f2d078292c006d07d6f64ebaf98168',
     ];
 
     /**
@@ -164,7 +167,8 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         'was_seen' => 'setWasSeen',
         'origin_id' => 'setOriginId',
         'channel' => 'setChannel',
-        'channel_id' => 'setChannelId'
+        'channel_id' => 'setChannelId',
+        'e512cd02c6f2d078292c006d07d6f64ebaf98168' => 'set_e512cd02c6f2d078292c006d07d6f64ebaf98168',
     ];
 
     /**
@@ -184,7 +188,8 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         'was_seen' => 'getWasSeen',
         'origin_id' => 'getOriginId',
         'channel' => 'getChannel',
-        'channel_id' => 'getChannelId'
+        'channel_id' => 'getChannelId',
+        'e512cd02c6f2d078292c006d07d6f64ebaf98168' => 'get_e512cd02c6f2d078292c006d07d6f64ebaf98168',
     ];
 
     /**
@@ -266,6 +271,7 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
         $this->container['origin_id'] = $data['origin_id'] ?? null;
         $this->container['channel'] = $data['channel'] ?? null;
         $this->container['channel_id'] = $data['channel_id'] ?? null;
+        $this->container['e512cd02c6f2d078292c006d07d6f64ebaf98168'] = $data['e512cd02c6f2d078292c006d07d6f64ebaf98168'] ?? null;
     }
 
     /**
@@ -584,6 +590,31 @@ class AddLeadRequest implements ModelInterface, ArrayAccess, JsonSerializable
 
         return $this;
     }
+
+    /**
+     * Gets PROVENIENZA
+     *
+     * @return string|null
+     */
+    public function get_e512cd02c6f2d078292c006d07d6f64ebaf98168()
+    {
+        return $this->container['e512cd02c6f2d078292c006d07d6f64ebaf98168'];
+    }
+
+    /**
+     * Sets PROVENIENZA
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_e512cd02c6f2d078292c006d07d6f64ebaf98168($value): self
+    {
+        $this->container['e512cd02c6f2d078292c006d07d6f64ebaf98168'] = $value;
+
+        return $this;
+    }
+
     /**
      * Returns true if offset exists. False otherwise.
      *
