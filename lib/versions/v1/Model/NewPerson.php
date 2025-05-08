@@ -81,6 +81,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         '802440d972981216c52eea576fee899b561187ac' => 'string',
         '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'string',
         'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'string',
+        '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93' => 'string',
     ];
 
     /**
@@ -106,6 +107,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         '802440d972981216c52eea576fee899b561187ac' => null,
         '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => null,
         'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => null,
+        '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93' => null,
     ];
 
     /**
@@ -154,6 +156,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         '802440d972981216c52eea576fee899b561187ac' => '802440d972981216c52eea576fee899b561187ac',
         '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
         'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
+        '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93' => '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93',
     ];
 
     /**
@@ -177,6 +180,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         '802440d972981216c52eea576fee899b561187ac' => 'set_802440d972981216c52eea576fee899b561187ac',
         '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'set_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
         'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'set_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
+        '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93' => 'set_4e2ec12c903aa8db3c1a253c2c0d93bc05039c93',
     ];
 
     /**
@@ -200,6 +204,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         '802440d972981216c52eea576fee899b561187ac' => 'get_802440d972981216c52eea576fee899b561187ac',
         '927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc' => 'get_927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc',
         'bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0' => 'get_bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0',
+        '4e2ec12c903aa8db3c1a253c2c0d93bc05039c93' => 'get_4e2ec12c903aa8db3c1a253c2c0d93bc05039c93',
     ];
 
     /**
@@ -284,6 +289,7 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
         $this->container['802440d972981216c52eea576fee899b561187ac'] = $data['802440d972981216c52eea576fee899b561187ac'] ?? null;
         $this->container['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] = $data['927676a6b4b02fa5680cd0c5bb7350aa56bbd6bc'] ?? null;
         $this->container['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] = $data['bef4fd44432ad4c55c059be1cfef93cc2ac6a5c0'] ?? null;
+        $this->container['4e2ec12c903aa8db3c1a253c2c0d93bc05039c93'] = $data['4e2ec12c903aa8db3c1a253c2c0d93bc05039c93'] ?? null;
     }
 
     /**
@@ -674,6 +680,31 @@ class NewPerson implements ModelInterface, ArrayAccess, JsonSerializable
 
         return $this;
     }
+
+    /**
+     * Gets ACCESSO AREA RISERVATA
+     *
+     * @return string|null
+     */
+    public function get_4e2ec12c903aa8db3c1a253c2c0d93bc05039c93()
+    {
+        return $this->container['4e2ec12c903aa8db3c1a253c2c0d93bc05039c93'];
+    }
+
+    /**
+     * Sets ACCESSO AREA RISERVATA
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_4e2ec12c903aa8db3c1a253c2c0d93bc05039c93($value): self
+    {
+        $this->container['4e2ec12c903aa8db3c1a253c2c0d93bc05039c93'] = $value;
+
+        return $this;
+    }
+    
 
     /**
      * Returns true if offset exists. False otherwise.
