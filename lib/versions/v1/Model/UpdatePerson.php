@@ -85,6 +85,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         '7c6a8fc02810a0625356b9127393d4aef22a413c' => 'string',
         '0992157ad62fc851f63b5b68c3dba3007652c961' => 'string',
         '4c4afed6af6ec5602c842a992aeb2e37a3942827' => 'string',
+        '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c' => 'string',
     ];
 
     /**
@@ -114,6 +115,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         '7c6a8fc02810a0625356b9127393d4aef22a413c' => null,
         '0992157ad62fc851f63b5b68c3dba3007652c961' => null,
         '4c4afed6af6ec5602c842a992aeb2e37a3942827' => null,
+        '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c' => null,
     ];
 
     /**
@@ -166,6 +168,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         '7c6a8fc02810a0625356b9127393d4aef22a413c' => '7c6a8fc02810a0625356b9127393d4aef22a413c',
         '0992157ad62fc851f63b5b68c3dba3007652c961' => '0992157ad62fc851f63b5b68c3dba3007652c961',
         '4c4afed6af6ec5602c842a992aeb2e37a3942827' => '4c4afed6af6ec5602c842a992aeb2e37a3942827',
+        '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c' => '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c',
     ];
 
     /**
@@ -193,6 +196,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         '7c6a8fc02810a0625356b9127393d4aef22a413c' => 'set_7c6a8fc02810a0625356b9127393d4aef22a413c',
         '0992157ad62fc851f63b5b68c3dba3007652c961' => 'set_0992157ad62fc851f63b5b68c3dba3007652c961',
         '4c4afed6af6ec5602c842a992aeb2e37a3942827' => 'set_4c4afed6af6ec5602c842a992aeb2e37a3942827',
+        '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c' => 'set_73cb26921fa3823f7ee5e08fcb9dc021e5989c3c',
     ];
 
     /**
@@ -220,6 +224,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         '7c6a8fc02810a0625356b9127393d4aef22a413c' => 'get_7c6a8fc02810a0625356b9127393d4aef22a413c',
         '0992157ad62fc851f63b5b68c3dba3007652c961' => 'get_0992157ad62fc851f63b5b68c3dba3007652c961',
         '4c4afed6af6ec5602c842a992aeb2e37a3942827' => 'get_4c4afed6af6ec5602c842a992aeb2e37a3942827',
+        '73cb26921fa3823f7ee5e08fcb9dc021e5989c3c' => 'get_73cb26921fa3823f7ee5e08fcb9dc021e5989c3c',
     ];
 
     /**
@@ -308,6 +313,7 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
         $this->container['7c6a8fc02810a0625356b9127393d4aef22a413c'] = $data['7c6a8fc02810a0625356b9127393d4aef22a413c'] ?? null;
         $this->container['0992157ad62fc851f63b5b68c3dba3007652c961'] = $data['0992157ad62fc851f63b5b68c3dba3007652c961'] ?? null;
         $this->container['4c4afed6af6ec5602c842a992aeb2e37a3942827'] = $data['4c4afed6af6ec5602c842a992aeb2e37a3942827'] ?? null;
+        $this->container['73cb26921fa3823f7ee5e08fcb9dc021e5989c3c'] = $data['73cb26921fa3823f7ee5e08fcb9dc021e5989c3c'] ?? null;
     }
 
     /**
@@ -788,6 +794,30 @@ class UpdatePerson implements ModelInterface, ArrayAccess, JsonSerializable
     public function set_4c4afed6af6ec5602c842a992aeb2e37a3942827($value): self
     {
         $this->container['4c4afed6af6ec5602c842a992aeb2e37a3942827'] = $value;
+
+        return $this;
+    }
+
+    /**
+     * Gets Project Boolean PERSONA
+     *
+     * @return string|null
+     */
+    public function get_73cb26921fa3823f7ee5e08fcb9dc021e5989c3c()
+    {
+        return $this->container['73cb26921fa3823f7ee5e08fcb9dc021e5989c3c'];
+    }
+
+    /**
+     * Sets Project Boolean PERSONA
+     *
+     * @param string|null $value THE CUSTOM TACCHINI DETAIL VALUE ON PIPEDRIVE
+     *
+     * @return self
+     */
+    public function set_73cb26921fa3823f7ee5e08fcb9dc021e5989c3c($value): self
+    {
+        $this->container['73cb26921fa3823f7ee5e08fcb9dc021e5989c3c'] = $value;
 
         return $this;
     }
